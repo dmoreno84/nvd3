@@ -11,6 +11,8 @@ JS_FILES = \
 	src/models/discreteBar.js \
 	src/models/discreteBarChart.js \
 	src/models/distribution.js \
+	src/models/gauge.js \
+	src/models/gaugeChart.js \
 	src/models/historicalBar.js \
 	src/models/historicalBarChart.js \
 	src/models/indentedTree.js \

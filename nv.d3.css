@@ -355,6 +355,40 @@ svg .title {
   stroke-opacity: 0;
 }
 
+/***********
+*  Gauge Chart
+*/
+
+.nvd3.nv-gauge path {
+  stroke-opacity: 0;
+  transition: fill-opacity 250ms linear, stroke-width 250ms linear, stroke-opacity 250ms linear;
+  -moz-transition: fill-opacity 250ms linear, stroke-width 250ms linear, stroke-opacity 250ms linear;
+  -webkit-transition: fill-opacity 250ms linear, stroke-width 250ms linear, stroke-opacity 250ms linear;
+
+}
+
+.nvd3.nv-gauge .nv-slice text {
+  stroke: #000;
+  stroke-width: 0;
+}
+
+.nvd3.nv-gauge path {
+  stroke: #fff;
+  stroke-width: 1px;
+  stroke-opacity: 1;
+}
+
+.nvd3.nv-gauge .hover path {
+  fill-opacity: .7;
+}
+.nvd3.nv-gauge .nv-label {
+  pointer-events: none;
+}
+.nvd3.nv-gauge .nv-label rect {
+  fill-opacity: 0;
+  stroke-opacity: 0;
+}
+
 /**********
 * Lines
 */
